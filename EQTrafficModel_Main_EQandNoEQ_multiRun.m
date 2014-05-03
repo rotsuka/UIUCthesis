@@ -402,7 +402,7 @@ for i=1:noEn
     xi_p2_wEQ(:,1,i,1)=xi_p_wEQ(:,1,i,1);
     
     % No EQ solution has same initial ensembles
-    xi_p_wEQ(:,1,i,1)=xi_p_wEQ(:,1,i,1);
+    xi_p_nEQ(:,1,i,1)=xi_p_wEQ(:,1,i,1);
     xi_p2_nEQ(:,1,i,1)=xi_p_wEQ(:,1,i,1);
     
 end
